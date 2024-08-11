@@ -1,0 +1,19 @@
+---
+title: "Adenine base editing analysis"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{abe-analysis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Rabe)
+```

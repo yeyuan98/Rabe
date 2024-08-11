@@ -1,0 +1,31 @@
+Package: Rabe
+Title: Adenine base editor analysis
+Version: 0.0.1
+Authors@R: 
+    person("Ye", "Yuan", , "yeyu@umich.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-9641-9102"))
+Description: Base editors are emerging molecular sensors for protein-RNA 
+    interaction. This package implements a workflow for analysis 
+    of adenine base editor datasets. With minimal adjustment it can be used 
+    for systematic inquiry of any known single base-pair mutagenesis patterns. 
+    Part of the y3628 analysis suite.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+biocViews: CellBiology, Genetics
+Imports: 
+    stringr,
+    tibble,
+    dplyr,
+    S4Vectors,
+    IRanges,
+    GenomicRanges,
+    VariantAnnotation,
+    SummarizedExperiment
+Depends: 
+    R (>= 4.1)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
